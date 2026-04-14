@@ -1,2 +1,2 @@
-# fwade0572.github.io
-My Portfolio
+# Faith_Wade_Portfolio
+Contact Info:
