@@ -6,4 +6,4 @@ visualizations with a high accuracy rate.  With these visuals, we were able to a
 
 Progress Notes:
 
-I could not upload the original cleaned dataset as it was too bug, so I uploaded a smaller version of it. For those who would like to see its original file, please contact me.
+I could not upload the original cleaned dataset as it was too big, so I uploaded a smaller version of it. For those who would like to see its original file, please contact me.
