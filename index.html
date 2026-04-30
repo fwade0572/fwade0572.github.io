@@ -11,6 +11,7 @@
       font-family: Arial, sans-serif;
       background: #f4f6f8;
       color: #222;
+      line-height: 1.6;
     }
 
     header {
@@ -18,6 +19,16 @@
       color: white;
       text-align: center;
       padding: 50px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
     }
 
     main {
@@ -35,12 +46,13 @@
     }
 
     h2 {
+      color: #1f2937;
       border-bottom: 2px solid #4f46e5;
       padding-bottom: 8px;
     }
 
     ul {
-      padding-left: 20px;
+      padding-left: 25px;
     }
 
     li {
@@ -57,66 +69,100 @@
       text-decoration: underline;
     }
 
+    .contact p {
+      margin: 5px 0;
+    }
+
     footer {
       text-align: center;
       padding: 20px;
       background: #1f2937;
       color: white;
+      margin-top: 30px;
     }
   </style>
 </head>
 
 <body>
 
-<header>
-  <h1>Faith I. Wade</h1>
-  <p>Data Science Portfolio</p>
-</header>
+  <header>
+    <h1>Faith I. Wade</h1>
+    <p>Data Science Portfolio</p>
+  </header>
 
-<main>
+  <main>
 
-<section>
-  <h2>Bio</h2>
-  <p>
-    I am currently a student at Bellevue University seeking an entry-level
-    role in Data Science. This portfolio highlights my projects and growth
-    through hands-on work.
-  </p>
-</section>
+    <section class="contact">
+      <h2>Contact Information</h2>
+      <p><strong>Phone:</strong> Private</p>
+      <p><strong>Email:</strong> Private</p>
+    </section>
 
-<section>
-  <h2>Skills</h2>
-  <ul>
-    <li>Python & Google Colab</li>
-    <li>Data Analysis & Visualization</li>
-    <li>Machine Learning</li>
-    <li>Statistics</li>
-  </ul>
-</section>
+    <section>
+      <h2>Bio</h2>
+      <p>
+        I am currently a student at Bellevue University seeking an
+        entry-level role in Data Science. This portfolio highlights my
+        projects and growth through hands-on work.
+      </p>
+      <p>
+        As I continue developing my skills, this portfolio will expand
+        with additional projects and deeper analysis.
+      </p>
+    </section>
 
-<section>
-  <h2>Projects</h2>
-  <ul>
-    <li>
-      <strong>Project One:</strong>
-      <a href="project1.html">Crime in LA — View Project</a>
-    </li>
+    <section>
+      <h2>Skills & Proficiencies</h2>
+      <ul>
+        <li>Python & Google Colab</li>
+        <li>Exploratory Data Analysis</li>
+        <li>Data Visualization</li>
+        <li>Machine Learning</li>
+        <li>Statistics</li>
+        <li>Data Wrangling</li>
+        <li>Experience with tools such as Pandas, Plotly, TensorFlow, and Spark</li>
+      </ul>
+    </section>
 
-    <li>
-      <strong>Project Two:</strong> Wine Quality (Coming Soon)
-    </li>
+    <section>
+      <h2>Projects Contained in Portfolio</h2>
+      <p>
+        This portfolio includes multiple data science projects:
+      </p>
 
-    <li>
-      <strong>Project Three:</strong> Electric Vehicles (Coming Soon)
-    </li>
-  </ul>
-</section>
+      <ul>
+        <li>
+          <strong>Project One:</strong>
+          <a href="project1-overview.html">
+            Crime in LA — View Overview
+          </a>
+        </li>
 
-</main>
+        <li>
+          <strong>Project Two:</strong> Properties of Wine Quality (Coming Soon)
+        </li>
 
-<footer>
-  <p>&copy; 2026 Faith I. Wade</p>
-</footer>
+        <li>
+          <strong>Project Three:</strong> Electric Vehicle Population (Coming Soon)
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>GitHub Portfolio</h2>
+      <p>
+        View the full portfolio on GitHub:
+      </p>
+      <a href="https://github.com/fwade0572/fwade0572.github.io" target="_blank">
+        Visit GitHub Portfolio
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Faith I. Wade | Data Science Portfolio</p>
+  </footer>
 
 </body>
 </html>
